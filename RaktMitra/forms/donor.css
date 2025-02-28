@@ -1,0 +1,84 @@
+/* Light blue hospital theme */
+body {
+    background: #fde3e3;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.12);
+    width: 380px;
+    text-align: center;
+}
+
+/* Donor Icon */
+.profile-icon img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #42A5F5;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Heading */
+h2 {
+    color: #ff2222;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    background: #F9FAFB;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+input:focus, select:focus {
+    border-color: #42A5F5;
+    box-shadow: 0px 0px 5px rgba(66, 165, 245, 0.5);
+}
+
+/* Register Button */
+button {
+    width: 50%;
+    background: #f54242;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1E88E5;
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}

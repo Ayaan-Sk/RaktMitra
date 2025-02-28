@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Search</title>
+    <link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blood Bank System</h1>
+
+        <!-- Blood Group Filter Buttons -->
+        <div class="blood-group-buttons">
+            <button class="blood-btn" onclick="highlightBloodGroup('A+')">A+</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('A-')">A-</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('B+')">B+</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('B-')">B-</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('AB+')">AB+</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('AB-')">AB-</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('O+')">O+</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('O-')">O-</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('O')">O</button>
+            <button class="blood-btn" onclick="highlightBloodGroup('Universal Donor')">Universal Donor</button>
+            <button class="blood-btn" onclick="resetHighlights()">Reset</button>
+        </div>
+
+        <!-- Search bar for name or blood type -->
+        <div class="search-container">
+            <input type="text" id="search-bar" class="search-bar" placeholder="Search by name or blood type..." onkeyup="searchFunction()">
+        </div>
+
+        <!-- Donor List -->
+        <ul id="blood-donors-list">
+            <li class="donor-item">Saniya - Blood Type: A+ - Available</li>
+            <li class="donor-item">Kashaf - Blood Type: O- - Unavailable</li>
+            <li class="donor-item">Sania - Blood Type: B+ - Available</li>
+            <li class="donor-item">Adnan - Blood Type: AB+ - Unavailable</li>
+            <li class="donor-item">Ayan - Blood Type: O+ - Available</li>
+            <li class="donor-item">Mariya - Blood Type: A- - Available</li>
+            <li class="donor-item">Mehwish - Blood Type: B- - Available</li>
+            <li class="donor-item">Tuba - Blood Type: AB- - Unavailable</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+CREATE TABLE Hospitals (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    address VARCHAR(255) NOT NULL,
+    donor_name VARCHAR(255) NOT NULL,
+    blood_group VARCHAR(5) NOT NULL,
+    availability ENUM('Available', 'Unavailable') NOT NULL
+);
+
+INSERT INTO Hospitals (name, address, donor_name, blood_group, availability) VALUES
+('Apollo Hospital', 'Chennai, Tamil Nadu', 'Ravi Kumar', 'A+', 'Available'),
+('Fortis Hospital', 'Bangalore, Karnataka', 'Ananya Sharma', 'O-', 'Unavailable'),
+('AIIMS', 'New Delhi, Delhi', 'Rajesh Gupta', 'B+', 'Available'),
+('Medanta Hospital', 'Gurgaon, Haryana', 'Pooja Singh', 'AB+', 'Unavailable'),
+('Max Hospital', 'Mumbai, Maharashtra', 'Karan Mehta', 'O+', 'Available'),
+('Narayana Health', 'Kolkata, West Bengal', 'Priya Verma', 'A-', 'Available'),
+('Manipal Hospital', 'Pune, Maharashtra', 'Sahil Kapoor', 'B-', 'Available'),
+('Hinduja Hospital', 'Mumbai, Maharashtra', 'Neha Choudhary', 'AB-', 'Unavailable'),
+('Jaslok Hospital', 'Mumbai, Maharashtra', 'Vikram Rao', 'O+', 'Available'),
+('KIMS Hospital', 'Hyderabad, Telangana', 'Sneha Reddy', 'A+', 'Available'),
+('Yashoda Hospital', 'Hyderabad, Telangana', 'Arjun Naidu', 'B+', 'Unavailable'),
+('Lilavati Hospital', 'Mumbai, Maharashtra', 'Meera Malhotra', 'O-', 'Available'),
+('Ruby Hall Clinic', 'Pune, Maharashtra', 'Ramesh Desai', 'AB+', 'Available'),
+('Sahyadri Hospital', 'Pune, Maharashtra', 'Swati Joshi', 'A-', 'Unavailable'),
+('Columbia Asia', 'Bangalore, Karnataka', 'Gaurav Mishra', 'B-', 'Available'),
+('Sir Ganga Ram Hospital', 'New Delhi, Delhi', 'Manish Pandey', 'O+', 'Available'),
+('Sunshine Hospital', 'Hyderabad, Telangana', 'Tanya Roy', 'A+', 'Unavailable'),
+('CMC Vellore', 'Vellore, Tamil Nadu', 'Ashok Nair', 'AB-', 'Available'),
+('BM Birla Hospital', 'Kolkata, West Bengal', 'Kritika Sen', 'B+', 'Available'),
+('Tata Memorial Hospital', 'Mumbai, Maharashtra', 'Amit Patel', 'O-', 'Unavailable'),
+('Sharda Hospital', 'Noida, Uttar Pradesh', 'Rekha Jindal', 'A+', 'Available'),
+('NIMHANS', 'Bangalore, Karnataka', 'Surya Ramesh', 'B-', 'Available'),
+('PSG Hospitals', 'Coimbatore, Tamil Nadu', 'Nikhil Yadav', 'O+', 'Available'),
+('Apollo Gleneagles', 'Kolkata, West Bengal', 'Smriti Ghosh', 'A-', 'Unavailable'),
+('Manipal Northside', 'Bangalore, Karnataka', 'Tarun Saxena', 'AB+', 'Available');

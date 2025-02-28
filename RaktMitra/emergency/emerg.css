@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; /* Light theme */
+    padding: 50px;
+}
+
+.call-btn {
+    display: inline-block;
+    background: #D32F2F;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.call-btn:hover {
+    background: #B71C1C;
+    transform: scale(1.05);
+}
