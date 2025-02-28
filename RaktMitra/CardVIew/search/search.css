@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #d81515;
+}
+
+.blood-group-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.blood-btn {
+    background-color: #d81515;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.blood-btn:hover {
+    background-color: #bf0c0c;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #d81515;
+    border-radius: 5px;
+    outline: none;
+}
+
+#blood-donors-list {
+    list-style: none;
+    padding: 0;
+}
+
+.donor-item {
+    background: #fff3e0;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #d81515;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.donor-item:nth-child(even) {
+    background: #ffccbc;
+}

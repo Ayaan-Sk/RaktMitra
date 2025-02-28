@@ -1,0 +1,116 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: #1e1e1e;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.3);
+    text-align: center;
+}
+
+.logo {
+    color: #ff4d4d;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.tabs a {
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 600;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.tabs a.active,
+.tabs a:hover {
+    color: #ff4d4d;
+    border-bottom: 2px solid #ff4d4d;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #ccc;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.remember input {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    background: #ff4d4d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #cc0000;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: #ff4d4d;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .login-container {
+        width: 90%;
+    }
+}
