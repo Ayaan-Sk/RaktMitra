@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donor Registration</title>
+    <link rel="stylesheet" href="/forms/donor.css">
+</head>
+<body>
+    <div class="container">
+       
+        <h2>Donor Registration</h2>
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="tel" placeholder="Contact Number" required>
+            
+            <select required>
+                <option value="" disabled selected>Select Blood Type</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+
+            <input type="text" placeholder="Hospital Name" required>
+
+            <button type="submit">Register as Donor</button>
+        </form>
+    </div>
+</body>
+</html>
