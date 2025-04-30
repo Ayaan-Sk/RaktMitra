@@ -1,7 +1,7 @@
  
 
 
-# 🩸 RaktMitra - Online Emergency Blood Donor Platform  
+# 🩸 RaktMitra - Online Emergency Blood Donor Platform 
 
 ![RaktMitra Banner](https://github.com/Ayaan-Sk/RaktMitra/blob/cb5291c63c748f693f1f8748e3905c9e76e2bcbe/RaktMitraHero.jpg)  
 
