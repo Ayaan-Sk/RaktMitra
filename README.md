@@ -3,7 +3,7 @@
 
 # 🩸 RaktMitra - Online Emergency Blood Donor Platform  
 
-![RaktMitra Banner]([https://your-image-link-here.com/banner.png](https://github.com/Ayaan-Sk/RaktMitra/blob/main/RaktMitraHero.jpg?raw=true))  
+![RaktMitra Banner]([[https://your-image-link-here.com/banner.png](https://github.com/Ayaan-Sk/RaktMitra/blob/main/RaktMitraHero.jpg?raw=true)](https://github.com/Ayaan-Sk/RaktMitra/blob/5b75df44bc5893da3ead111a640ca0ad00af4cdd/RaktMitraHero.jpg))  
 
 RaktMitra is an **online emergency blood donor platform** where users can **find blood donors** or **register themselves** as a donor to help those in need. The platform efficiently connects hospitals, donors, and patients in times of emergency.  
 
