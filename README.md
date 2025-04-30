@@ -70,7 +70,10 @@ RaktMitra/
    - Start Apache and MySQL.  
 
 5. **Run the project:**  
-   - Open a browser and visit `http://localhost/RaktMitra/`.  
+   - Open a browser and visit `http://localhost/RaktMitra/`.
+
+6. **Preview the project:**  
+   - Open a browser and search `https://raktmitra.netlify.app/`. 
 
 ## 📜 Database Schema  
 
