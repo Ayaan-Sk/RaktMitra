@@ -1,5 +1,3 @@
- 
-
 
 # 🩸 RaktMitra - Online Emergency Blood Donor Platform 
 
